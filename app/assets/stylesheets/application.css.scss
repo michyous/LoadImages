@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 // Typography Styles
 h1, h2, h3 {
@@ -25,9 +27,9 @@ h1, h2, h3 {
 // Background Gradient
 .navbar,.home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
-  background: #F7F7F7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004C93, #F7F7F7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #004C93, #F7F7F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2B2B2B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004C93, #2B2B2B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004C93, #2B2B2B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
