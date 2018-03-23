@@ -9,7 +9,7 @@ $(document).on('turbolinks:load', function(){
     event.preventDefault();
     submitBtn.val("Processing").prop('disabled', true);
     
-    var ccNum = $('#card-number').val(),
+    var ccNum = $('#card_number').val(),
         cvcNum = $('#card_code').val(),
         expMonth = $('#card_month').val(),
         expYear = $('#card_year').val();
@@ -18,7 +18,7 @@ $(document).on('turbolinks:load', function(){
     
     if(!Stripe.card.validateCardNumber(ccNum)) {
       error = true;
-      alert('The credit care number appears to be invalid');
+      alert('The credit card number appears to be invalid');
     }
     
     if(!Stripe.card.validateCVC(cvcNum)) {
